@@ -1,5 +1,5 @@
 # Specify base image that we are building new image from
-FROM node:16
+FROM public.ecr.aws/docker/library/node:16
 
 WORKDIR /
 
